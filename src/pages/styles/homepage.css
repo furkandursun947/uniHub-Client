@@ -1,0 +1,41 @@
+ 
+  .homeInfo {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #eee;
+    z-index: 99999;
+  }
+  
+  .homeInfo h1 {
+    font-family: 'Bitter'; font-style: oblique; font-weight: 700; line-height: 64px;text-align: center;
+  }
+  
+  .homeInfo p {
+    font-family: 'Merriweather', serif; font-weight: 300; line-height: 0; text-align: center;
+  }
+  
+  .img-circle {
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .home__image {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-position: center;
+    background-size: cover;
+    mask-image: linear-gradient(to top, black 25%, rgba(0, 0, 0, 0.7) 90%);
+}
+
+.banner_image {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    object-position: 20%;
+}

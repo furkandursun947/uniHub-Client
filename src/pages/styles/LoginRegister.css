@@ -1,0 +1,103 @@
+.container-loginReg{
+    margin-top: 30px;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.row-register{
+    position: relative;
+    padding: 10px;
+    min-width: 350px;
+    min-height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.headerText{
+    text-transform: uppercase;
+}
+
+.row{
+    width: 20%;
+    position: relative;
+    padding: 10px;
+    min-width: 350px;
+    min-height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputFieldDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.inputField{
+    width: 60%;
+}
+
+.buttonFieldDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.submitButton{
+    width: 120px;
+    padding: 12px !important;
+}
+
+.textFieldDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.radioFieldDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.radioGroupText{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.radioGroup{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.errorTextField{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.errorText{
+    color:red;
+}
